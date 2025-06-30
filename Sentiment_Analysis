@@ -1,0 +1,16 @@
+sentiment_analysis/README.md
+
+## Sentiment Analysis
+
+Web scraping: The code we used scrapes article titles and dates from the WSJ archive for a
+specified date range and stores the information in an Excel file. We scraped the archive year
+by year to speed up the process, and we then appended all databases.
+Sentiment Analysis: Once we had the complete database, we created two indicators; the first
+points to all articles mentioning the war in Palestine. The second points to those mentioning
+the war in Ukraine. Subsequently, we employed a code that conducts sentiment analysis on the
+titles based on the two indicators and calculates the yearly average sentiment score for each
+indicator. The results are then stored in Excel files that are used for plotting the Sentiment Trends accross the years.
+
+
+##Code:
+https://colab.research.google.com/drive/1vHYLn2rvPNnzwy6Hi0SLJIcarcU5T7zD?usp=sharing#scrollTo=9FbTqjDJR3TE
